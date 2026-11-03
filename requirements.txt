@@ -1,0 +1,9 @@
+# Task 2: the packages task2.ipynb needs. Python 3.12.
+# The same pins as the course labs: pydantic from Lab 4, duckdb and pyarrow from Lab 5.
+# Install with:
+#     python -m pip install -r requirements.txt
+ipykernel==7.3.0
+pandas==2.3.3
+pydantic==2.13.5
+duckdb==1.5.6
+pyarrow==26.0.0

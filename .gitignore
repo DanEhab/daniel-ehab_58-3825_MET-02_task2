@@ -1,0 +1,7 @@
+# Python environment, Jupyter and Python caches
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# Kept on disk, not part of the submission
+README.pdf
