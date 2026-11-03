@@ -1,3 +1,6 @@
 # Store JSON Lines files byte for byte, with no line-ending conversion,
 # so bookings.jsonl stays exactly the file we were given.
 *.jsonl -text
+
+# Parquet files are binary: never convert or diff them as text.
+*.parquet binary
